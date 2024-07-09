@@ -1,0 +1,40 @@
+#box {
+    border: 1px rgba(132, 131, 131, 0.959) solid;
+    border-radius: 5px;
+    width: 426px;
+    margin-left: 30%;
+
+
+}
+
+#display {
+    padding: 10px 20px;
+    width: 80%;
+    margin: 20px;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px rgb(73, 73, 73) solid;
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+}
+
+.button {
+    width: 105px;
+    height: 73px;
+    margin: 6px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: large;
+}
+#clear{
+    color: crimson;
+}
