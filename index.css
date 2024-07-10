@@ -1,16 +1,15 @@
 #box {
     border: 1px rgba(132, 131, 131, 0.959) solid;
     border-radius: 5px;
-    width: 426px;
-    margin-left: 30%;
-
-
+    width: 90%;
+    margin: 0 auto;
+    max-width: 426px;
 }
 
 #display {
     padding: 10px 20px;
-    width: 80%;
-    margin: 20px;
+    width: calc(90% - 40px);
+    margin: 20px ;
     font-weight: 500;
     font-size: large;
     border-radius: 5px;
@@ -23,7 +22,6 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 15px;
-
 }
 
 .button {
@@ -35,6 +33,46 @@
     font-weight: 700;
     font-size: large;
 }
-#clear{
+
+#clear {
     color: crimson;
+}
+
+@media (max-width: 768px) {
+    #box {
+        width: 95%;
+    }
+
+    #display {
+        width: 100%;
+        margin: 10px 20px;
+        font-size: medium;
+    }
+
+    .button {
+        width: 90px;
+        height: 65px;
+        margin: 5px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    #box {
+        width: 100%;
+    }
+
+    #display {
+        padding: 8px 16px;
+        width: calc(90% - 32px);
+        margin: 10px 20px;
+        font-size: small;
+    }
+
+    .button {
+        width: 80px;
+        height: 55px;
+        margin: 4px;
+        font-size: small;
+    }
 }
